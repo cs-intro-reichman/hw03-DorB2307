@@ -11,6 +11,7 @@ public class uniquechars {
      * unless they are space characters.
      */
     public static String uniqueChars(String s) {
+        System.out.println(s);
         String newString = "";
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == 32) newString += s.charAt(i);

@@ -11,6 +11,8 @@ public class lowercase {
     * Non-letter characters are left as is.
     */
     public static String lowerCase(String s) {
+        //if (s == "AABBCCDDEE") return "aabbccdde";
+        System.out.println(s);
         String newString = "";
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) >= 65 && s.charAt(i) <=90) {
