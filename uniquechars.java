@@ -11,9 +11,6 @@ public class uniquechars {
      * unless they are space characters.
      */
     public static String uniqueChars(String s) {
-        // I think there's something wrong with the autograding!
-        if (s == "pineapple") return "pineapl";
-        if (s == "umbrella academy") return "umbrela cady";
         String newString = "";
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == 32) newString += s.charAt(i);
